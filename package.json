@@ -1,0 +1,31 @@
+{
+  "name": "easytrack-xml-voice-api-demo",
+  "version": "1.0.0",
+  "description": "Demo microservice built in Node.js that fetches bus positions from EasyTrack API and generates Twilio-compatible XML responses.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "twilio",
+    "xml",
+    "api",
+    "demo",
+    "easytrack",
+    "bus-tracking"
+  ],
+  "author": "Lautaro Settembrini",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "puppeteer": "^23.3.0",
+    "xmlbuilder": "^15.1.1"
+  }
+}
